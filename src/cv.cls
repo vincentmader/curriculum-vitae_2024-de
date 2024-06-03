@@ -95,12 +95,12 @@
     \newcommand{\personalDetails}{\vspace*{-4mm}
         \begin{multicols}{2}
             \begin{itemize}[leftmargin=*, labelsep=0mm]
-                \foo{\textbf{Full Name}     & \@firstName\ \@middleName\ \@lastName}
-                \foo{\textbf{Date of Birth} & \@dateOfBirth}
+                \foo{\textbf{Name}     & \@firstName\ \@middleName\ \@lastName}
+                \foo{\textbf{Geburtsdatum} & \@dateOfBirth}
             \end{itemize}\vspace*{-4mm}
             \begin{itemize}[leftmargin=*, labelsep=0mm]
-                \foo{\textbf{City of Birth} & \@cityOfBirth, \@countryOfBirth}
-                \foo{\textbf{Nationality}   & \@nationality}
+                \foo{\textbf{Nationalit\"at}   & \@nationality}
+                \foo{\textbf{Geburtsort} & \@cityOfBirth, \@countryOfBirth}
             \end{itemize}
         \end{multicols}
         \vspace*{-7mm}
